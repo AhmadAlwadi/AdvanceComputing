@@ -28,6 +28,7 @@ Partial Class choose_test
         Me.go_back = New System.Windows.Forms.PictureBox()
         Me.DropDownMenu = New System.Windows.Forms.ComboBox()
         Me.filePath = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.go_back, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -64,9 +65,10 @@ Partial Class choose_test
         'DropDownMenu
         '
         Me.DropDownMenu.AllowDrop = True
+        Me.DropDownMenu.AutoCompleteCustomSource.AddRange(New String() {"OOP Knowledge", "SQL Knowledge ", "Standrd Algorithms"})
         Me.DropDownMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DropDownMenu.FormattingEnabled = True
-        Me.DropDownMenu.Items.AddRange(New Object() {"OOP Knowledge ", "SQL Knowledge", "Standard Algorithms"})
+        Me.DropDownMenu.Items.AddRange(New Object() {"OOP Knowledge", "SQL Knowledge", "Standard Algorithms"})
         Me.DropDownMenu.Location = New System.Drawing.Point(284, 181)
         Me.DropDownMenu.Name = "DropDownMenu"
         Me.DropDownMenu.Size = New System.Drawing.Size(190, 28)
@@ -82,11 +84,21 @@ Partial Class choose_test
         Me.filePath.TabIndex = 7
         Me.filePath.Text = "File Path"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(75, 92)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "Label2"
+        '
         'choose_test
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.filePath)
         Me.Controls.Add(Me.DropDownMenu)
         Me.Controls.Add(Me.go_back)
@@ -105,4 +117,5 @@ Partial Class choose_test
     Friend WithEvents go_back As PictureBox
     Friend WithEvents DropDownMenu As ComboBox
     Friend WithEvents filePath As Label
+    Friend WithEvents Label2 As Label
 End Class

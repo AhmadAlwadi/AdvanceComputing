@@ -1,6 +1,6 @@
 ﻿Public Class QuestionTemplateBeta
-    Dim questions(4) As LinkedList
-    Dim answers(4) As Integer
+    Dim questions(9) As LinkedList
+    Dim answers(9) As Integer
     Dim questionCounter As Integer = 0
 
     Public Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -59,9 +59,17 @@
         Dim correct_answer_index As Integer
     End Structure
 
+    'This function will pick random questions from the origianl quesitons list for the user
+    Private Function PickQuestions(questions() As LinkedList)
+        Dim FinalQuestions(4) As LinkedList
+        Dim RandomNumber As Integer
+        RandomNumber = 
+    End Function
+
     'Those procedures are to store the users' answers and display the next question
     Private Sub OptionA_Click(sender As Object, e As EventArgs) Handles OptionA.Click
-        If questionCounter < 4 Then
+        'This if statement checks if the user hasn't gone over the max number of questions
+        If questionCounter < questions.Length Then
             answers(questionCounter) = 0
             questionCounter += 1
             TextBox1.Text = TextBox1.Text & Str(questionCounter) & vbNewLine
@@ -70,7 +78,7 @@
     End Sub
 
     Private Sub OptionB_Click(sender As Object, e As EventArgs) Handles OptionB.Click
-        If questionCounter < 5 Then
+        If questionCounter < questions.Length Then
             answers(questionCounter) = 1
             questionCounter += 1
             TextBox1.Text = TextBox1.Text & Str(questionCounter) & vbNewLine
@@ -79,7 +87,7 @@
     End Sub
 
     Private Sub OptionC_Click(sender As Object, e As EventArgs) Handles OptionC.Click
-        If questionCounter < 5 Then
+        If questionCounter < questions.Length Then
             answers(questionCounter) = 2
             questionCounter += 1
             TextBox1.Text = TextBox1.Text & Str(questionCounter) & vbNewLine
@@ -88,7 +96,7 @@
     End Sub
 
     Private Sub OptionD_Click(sender As Object, e As EventArgs) Handles OptionD.Click
-        If questionCounter < 5 Then
+        If questionCounter < questions.Length Then
             answers(questionCounter) = 3
             questionCounter += 1
             TextBox1.Text = TextBox1.Text & Str(questionCounter) & vbNewLine

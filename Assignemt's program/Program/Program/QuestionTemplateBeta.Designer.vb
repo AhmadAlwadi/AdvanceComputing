@@ -59,44 +59,44 @@ Partial Class QuestionTemplateBeta
         '
         'QuestionBox
         '
-        Me.QuestionBox.Location = New System.Drawing.Point(711, 12)
+        Me.QuestionBox.Location = New System.Drawing.Point(459, 12)
         Me.QuestionBox.Multiline = True
         Me.QuestionBox.Name = "QuestionBox"
-        Me.QuestionBox.Size = New System.Drawing.Size(397, 38)
+        Me.QuestionBox.Size = New System.Drawing.Size(787, 219)
         Me.QuestionBox.TabIndex = 3
         '
         'OptionA
         '
-        Me.OptionA.Location = New System.Drawing.Point(711, 86)
+        Me.OptionA.Location = New System.Drawing.Point(470, 254)
         Me.OptionA.Name = "OptionA"
-        Me.OptionA.Size = New System.Drawing.Size(75, 23)
+        Me.OptionA.Size = New System.Drawing.Size(304, 122)
         Me.OptionA.TabIndex = 4
         Me.OptionA.Text = "OptionA"
         Me.OptionA.UseVisualStyleBackColor = True
         '
         'OptionB
         '
-        Me.OptionB.Location = New System.Drawing.Point(1033, 86)
+        Me.OptionB.Location = New System.Drawing.Point(981, 254)
         Me.OptionB.Name = "OptionB"
-        Me.OptionB.Size = New System.Drawing.Size(75, 23)
+        Me.OptionB.Size = New System.Drawing.Size(304, 122)
         Me.OptionB.TabIndex = 5
         Me.OptionB.Text = "OptionB"
         Me.OptionB.UseVisualStyleBackColor = True
         '
         'OptionC
         '
-        Me.OptionC.Location = New System.Drawing.Point(711, 190)
+        Me.OptionC.Location = New System.Drawing.Point(470, 412)
         Me.OptionC.Name = "OptionC"
-        Me.OptionC.Size = New System.Drawing.Size(75, 23)
+        Me.OptionC.Size = New System.Drawing.Size(304, 95)
         Me.OptionC.TabIndex = 6
         Me.OptionC.Text = "OptionC"
         Me.OptionC.UseVisualStyleBackColor = True
         '
         'OptionD
         '
-        Me.OptionD.Location = New System.Drawing.Point(1033, 190)
+        Me.OptionD.Location = New System.Drawing.Point(981, 412)
         Me.OptionD.Name = "OptionD"
-        Me.OptionD.Size = New System.Drawing.Size(75, 23)
+        Me.OptionD.Size = New System.Drawing.Size(304, 95)
         Me.OptionD.TabIndex = 7
         Me.OptionD.Text = "OptionD"
         Me.OptionD.UseVisualStyleBackColor = True

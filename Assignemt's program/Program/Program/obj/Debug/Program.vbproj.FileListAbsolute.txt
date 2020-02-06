@@ -44,3 +44,20 @@ F:\ADV computing\Assignment\Assignemt's program\Program\Program\obj\Debug\Progra
 F:\ADV computing\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.pdb
 E:\ADV computing\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.QuestionTemplateBeta.resources
 F:\ADV computing\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.QuestionTemplateBeta.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\bin\Debug\User database.mdb
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\bin\Debug\Program.exe.config
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\bin\Debug\Program.exe
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\bin\Debug\Program.pdb
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\bin\Debug\Program.xml
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.vbprojAssemblyReference.cache
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.choose_test.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.QuestionTemplate.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.QuestionTemplateBeta.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.start_menu.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.leaderboard.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.Resources.resources
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.vbproj.GenerateResource.cache
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.vbproj.CoreCompileInputs.cache
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.exe
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.xml
+D:\Programming\AdvComp\Assignment\Assignemt's program\Program\Program\obj\Debug\Program.pdb
