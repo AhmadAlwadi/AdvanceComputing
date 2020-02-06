@@ -1,0 +1,13 @@
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\bin\Debug\try multiple forms.exe.config
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\bin\Debug\try multiple forms.exe
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\bin\Debug\try multiple forms.pdb
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\bin\Debug\try multiple forms.xml
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.vbprojAssemblyReference.cache
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try_multiple_forms.Form1.resources
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try_multiple_forms.Form2.resources
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try_multiple_forms.Resources.resources
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.vbproj.GenerateResource.cache
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.vbproj.CoreCompileInputs.cache
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.exe
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.xml
+E:\ADV computing\Assignment\try multiple forms\try multiple forms\obj\Debug\try multiple forms.pdb
