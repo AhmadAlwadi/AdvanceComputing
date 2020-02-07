@@ -9,6 +9,10 @@
 
     Private Sub main()
         questions = populateData(questions)
+        For i = 0 To questions.Length - 1
+            TextBox1.Text = TextBox1.Text & questions(i).question & vbNewLine
+        Next
+        questions = PickQuestions(questions)
         printData(questions)
         displayQuestion(questions(questionCounter))
     End Sub
@@ -16,7 +20,7 @@
     'Procedure to make sure that data exists...
     Private Sub printData(questions() As LinkedList)
         For i = 0 To questions.Length - 1
-            TextBox2.Text = TextBox2.Text & questions(i).question & vbTab & questions(i).option_A & vbTab & questions(i).option_B & vbTab & questions(i).option_C & vbTab & questions(i).option_D & vbTab & vbNewLine
+            TextBox2.Text = TextBox2.Text & questions(i).question & vbNewLine
         Next
     End Sub
 
@@ -63,8 +67,22 @@
     Private Function PickQuestions(questions() As LinkedList)
         Dim FinalQuestions(4) As LinkedList
         Dim RandomNumber As Integer
-        RandomNumber = 
+        'Dim MyValue As Integer
+        'MyValue = Int((6 * Rnd()) + 1)    ' Generate random value between 1 and 6.
+        'This number should be a random number between 0 and the length of the original question list & it will indicate an index
+        For i = 0 To 4
+            RandomNumber = Int(9 * Rnd())
+            TextBox1.Text = TextBox1.Text + Str(RandomNumber)
+            FinalQuestions(i) = questions(RandomNumber)
+            RemoveQuestion(questions, RandomNumber)
+        Next
+        Return FinalQuestions
     End Function
+
+    Private Sub RemoveQuestion(ByRef questions() As LinkedList, ByRef index As Integer)
+        questions(questions(index).b_link).f_link = questions(index).f_link
+        questions(questions(index).f_link).b_link = questions(index).b_link
+    End Sub
 
     'Those procedures are to store the users' answers and display the next question
     Private Sub OptionA_Click(sender As Object, e As EventArgs) Handles OptionA.Click
