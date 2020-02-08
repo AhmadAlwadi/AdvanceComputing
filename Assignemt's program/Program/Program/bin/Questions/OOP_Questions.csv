@@ -1,0 +1,11 @@
+0,Restricting variables is an example of:,Polymorphism ,Generalisation ,Encapsulation,Inhertince ,2
+1,The process by which one object can acquire the properties of another object:,Inheritance,Polymorphism,Encapsulation,Mocularity,0
+2,Constructors are used to:,To build a user interface.,Initialize a newly created object.,Free memory.,"To create a sub class.
+",1
+3,Which Feature of OOP illustrated the code reusability?,Polymorphism,Abstraction,Encapsulation,Inheritance,3
+4,Which of the two features match each other?,Inheritance and Encapsulation,Encapsulation and Polymorphism,Encapsulation and Abstraction,Abstraction and Polymorphism,2
+5,Which among the following best describes polymorphism?,It is the ability for a message/data to be processed in more than one form,It is the ability for a message/data to be processed in only 1 form,It is the ability for many messages/data to be processed in one way,It is the ability for undefined message/data to be processed in at least one way,0
+6,"If same message is passed to objects of several different classes and all of those can respond in a different way, what is this feature called?",Inheritance,Overloading,Polymorphism,Overriding,2
+7,Which among the following is not true for polymorphism?,It is feature of OOP,Ease in readability of program,Helps in redefining the same functionality,Increases overhead of function definition always,3
+8,"While using encapsulation, which among the following is possible?",Code modification can be additional overhead,Data member’s data type can be changed without changing any other code,"Data member’s type can’t be changed, or whole code have to be changed",Member functions can be used to change the data type of data members,1
+9,Information Hiding can also be termed as:,Data hiding,Encapsulation,Inheritance,Abstraction,1
