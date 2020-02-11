@@ -4,7 +4,7 @@
 3,Which SQL statement is used to remove data from a database?,COLLAPSE ,REMOVE,DELETE,FORGET,2
 4,Which SQL statement is used to add new data to a database?,ADD NEW,INSERT NEW,INSERT INTO,ADD RECORD,2
 5,"With SQL, how do you select a column named ""FirstName"" from a table named ""Persons""?", EXTRACT FirstName FROM Persons, SELECT Persons.FirstName, SELECT FirstName FROM Persons,FROM Persons SELECT FirstName,2
-6,"If same message is passed to objects of several different classes and all of those can respond in a different way, what is this feature called?",Inheritance,Overloading,Polymorphism,Overriding,2
-7,Which among the following is not true for polymorphism?,It is feature of OOP,Ease in readability of program,Helps in redefining the same functionality,Increases overhead of function definition always,3
-8,"While using encapsulation, which among the following is possible?",Code modification can be additional overhead,Data member’s data type can be changed without changing any other code,"Data member’s type can’t be changed, or whole code have to be changed",Member functions can be used to change the data type of data members,1
-9,Information Hiding can also be termed as:,Data hiding,Encapsulation,Inheritance,Abstraction,1
+6,"With SQL, how do you select all the columns from a table named ""Persons""?",SELECT *.Persons,SELECT * FROM Persons,SELECT [all] FROM Persons,SELECT Persons,1
+7,"With SQL, how do you select all the records from a table named ""Persons"" where the value of the column ""FirstName"" is ""Peter""?",SELECT [all] FROM Persons WHERE FirstName='Peter',SELECT * FROM Persons WHERE FirstName='Peter',SELECT * FROM Persons WHERE FirstName<>'Peter',SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter',1
+8,"With SQL, how do you select all the records from a table named ""Persons"" where the value of the column ""FirstName"" starts with an ""a""?",SELECT * FROM Persons WHERE FirstName='%a%',SELECT * FROM Persons WHERE FirstName LIKE 'a%',SELECT * FROM Persons WHERE FirstName LIKE '%a',SELECT * FROM Persons WHERE FirstName='a',1
+9,Which SQL keyword is used to sort the result-set?,ORDER BY,ORDER,SORT BY,SORT,0
